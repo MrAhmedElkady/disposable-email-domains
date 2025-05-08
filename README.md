@@ -4,6 +4,10 @@ This repo contains a [list of disposable and temporary email address domains](di
 
 We cannot guarantee all of these can still be considered disposable but we do basic checking so chances are they were disposable at one point in time.
 
+> One of the most impactful mechanisms we currently have is prohibiting known "throw-away" email domains from creating accounts on the index. We currently use the `disposable-email-domains` list as well as our own internal list to block registration with －or association of － such domains for PyPI accounts.
+
+-- Ee Durbin, PyPI Admin, Director of Infrastructure (PSF) [link](https://blog.pypi.org/posts/2024-06-16-prohibiting-msn-emails/)
+
 Allowlist
 =========
 The file [allowlist.conf](allowlist.conf) gathers email domains that are often identified as disposable but in fact are not.
@@ -24,6 +28,8 @@ You can copy, modify, distribute and use the work, even for commercial purposes,
 
 Changelog
 ============
+
+* 1/9/25 Enabled [GitHub sponsorhip](https://github.com/sponsors/disposable-email-domains) for this work. Everybody can do it, but currently only one person does it. Send them $2 for a coffee if you care.
 
 * 2/11/21 We created a github [org account](https://github.com/disposable-email-domains) and transferred the repository to it.
 
